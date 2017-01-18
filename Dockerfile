@@ -18,7 +18,7 @@ RUN apk --no-cache add --virtual deps git \
     /tmp/* \
     /root/.npm
 
-RUN ln -s /usr/src/app/run.sh /usr/local/bin/run-sematext-agent
+RUN ln -s /usr/src/app/run.sh /usr/local/bin/run-sematext-agent;chmod +x /usr/src/app/run.sh;
 
 EXPOSE 9000
 
