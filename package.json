@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Sematext file agent, based on sematext-docker-agent",
   "main": "lib/index.js",
+  "bin": {
+    "sematext-agent-docker": "lib/index.js",
+    "docker-info": "bin/docker-info.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/SchweizerischeBundesbahnen/sematext-file-agent.git"
