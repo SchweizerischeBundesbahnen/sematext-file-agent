@@ -21,7 +21,9 @@
     "docker-loghose": "github:megastef/docker-loghose",
     "docker-stats": "^0.7.0",
     "dockerode": "^2.2.8",
+    "fast-safe-stringify": "^1.0.10",
     "flat": "^1.5.1",
+    "ip": "^1.1.3",
     "line-delimited-json": "megastef/line-delimited-json",
     "lodash": "^3.10.1",
     "ls": "^0.1.0",
@@ -33,12 +35,10 @@
     "spm-agent": "^1.30.3",
     "spm-agent-os": "^1.30.8",
     "spm-metrics-js": "^1.0.7",
+    "stream-buffers": "^3.0.0",
     "through2": "^2.0.1",
     "which": "^1.0.9",
-    "winston": "^1.0.1",
-    "stream-buffers": "^3.0.0",
-    "fast-safe-stringify": "^1.0.10",
-    "ip": "^1.1.3"
+    "winston": "^1.1.2"
   },
   "devDependencies": {
     "doxx": "^1.2.6",
