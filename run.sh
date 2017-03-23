@@ -43,7 +43,7 @@ if [ -z "${DOCKER_HOST}" ]; then
   fi
 fi
 
-export SPM_REPORTED_HOSTNAME=$(docker-info Name)
+export SPM_REPORTED_HOSTNAME=""
 echo "Docker Hostname: ${SPM_REPORTED_HOSTNAME}"
 
 if [ -n "${DOCKERCLOUD_NODE_HOSTNAME}" ]; then
