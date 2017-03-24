@@ -4,7 +4,9 @@
   "description": "Sematext Docker Agent - Metrics and Log Collection Agent for Docker",
   "main": "lib/index.js",
   "bin": {
-    "sematext-agent-docker": "lib/index.js"
+    "sematext-agent-docker": "lib/index.js",
+    "docker-info": "bin/docker-info.js",
+    "spm-client-diagnostics": "bin/spm-client-diagnostics.js"
   },
   "repository": {
     "type": "git",
